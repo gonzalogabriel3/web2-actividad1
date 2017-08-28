@@ -1,0 +1,41 @@
+body{
+    background-color: #16CFE8;
+    
+}
+
+.error{
+    color: red;
+    border: 5px solid red;
+    
+}
+.correcto{
+    color:green;
+    
+}
+
+select{
+    color:white;
+    font-size: 30px;
+    margin-left: 500px;
+    background-color: #0C5C66;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.cabecera{
+    margin-left: 350px;
+    color: white;
+}
+
+header{
+    background-color: black;
+    padding: 20px;
+}
+
+footer{
+    
+    background-color: black;
+    padding: 25px;
+    color:white;
+    
+}
