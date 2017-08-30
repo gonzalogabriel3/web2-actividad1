@@ -3,27 +3,29 @@
       
     require 'cabecera.php';
         
+    $nombreRecibido= strtoupper($nombreRecibido);
+    
     if(!isset($nombreRecibido) || !isset($mayor)){
          echo '<h1 class="error">ERROR!<br>No se ingresaron los parametros necesarios</h1>';
             
     }else{
             
-        echo '<h2 class="correcto">Hola '.$nombreRecibido.',</h2>';
+        echo '<h2>Hola '.$nombreRecibido.',</h2>';
            
         /*Si el valor asignado a $mayor es 0(falso)*/
         if(!$mayor){
-            echo'<h2 class="correcto">no sos mayor de edad</h2>';
+            echo'<h2>no sos mayor de edad</h2>';
         }
         /*Si el valor asignado a $mayor es 1(verdadero)*/
         else{
-            echo'<h2 class="correcto">sos mayor de edad</h2>';
+            echo'<h2>sos mayor de edad</h2>';
                 
         }
     }    
     echo '<br><br><br><br><br><br><br><br>';
 ?>   
 
-    <select>   
+<select>   
         
          <?php            
          
@@ -43,7 +45,7 @@
         }
         */ 
          ?>
-     </select>     
-    
+  </select>
+
 <?php require 'pie.php'; ?>
     

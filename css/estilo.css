@@ -10,6 +10,8 @@ body{
 }
 .correcto{
     color:green;
+    display: inline;
+    font-size: 20px;
     
 }
 
